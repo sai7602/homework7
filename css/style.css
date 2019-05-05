@@ -1,0 +1,202 @@
+
+/* .body{
+    display: flex;
+    flex-direction: row;
+} */
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'LeagueGothic';
+    src:url(../font/LeagueGothic-Regular.otf)
+}
+/* header */
+.header-top{
+    height: 845px;
+    background-image: url(../img/bg.jpg);
+}
+/* header-menu start */
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 51px;
+}
+.logo{
+    display: block;
+    height: 40;
+    width: 152px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;;
+}
+a{
+    text-decoration: none;
+}
+.menu {
+    padding-top: 8px;
+}
+.menu li{
+    display: inline-block;
+    position: relative;
+    
+}
+.menu a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    font-family: 'LeagueGothic';
+    text-shadow: 1px 1px 2px #5f5762;
+    padding: 0 4px;
+    margin: 0 0 0 46px;
+    
+}
+.menu a:hover{
+    border-bottom: 2px solid #edbfff;
+}
+/* header-menu end */
+/* overlay start*/
+.header-overlay{
+    height: 400px;
+    background-image: url(../img/overlay.png);
+    margin: 168px 0 0 0;
+}
+.header-align{
+    display: flex;
+    justify-content: space-between;
+}
+.iphone{
+    position: relative;
+    top: -17px;
+    background-image: url(../img/Iphone.png);
+    height: 434px;
+    width: 274px;
+}
+.header-text{
+    width: 510px;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    padding: 44px 0 0 0;
+}
+.header-text h1{
+    font-family: 'LeagueGothic';
+    font-size: 60px;
+    color: #fefefe;
+    text-align: justify;
+    padding: 0 0 8px 0;
+}
+.header-text h2{
+    font-family: 'LeagueGothic';
+    font-size: 32px;
+    color: #edbfff;
+    text-align: justify;
+    padding: 0 0 8px 0;
+    text-transform: uppercase;
+}
+.header-text h3{
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+}
+/* overlay end */
+/* slide start */
+.slide ul{
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+}
+.slide li{
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    border: 3px solid #696571;
+    background-color: #696571;
+    margin: 4px;
+    box-shadow: 0 0 5px 0px ;
+}
+.slide li:hover{
+    background-color: #f1f1f1;
+}
+/* slide end */
+/* about start*/
+.header-about{
+    height: 342px;
+    background-image: url(../img/about.jpg);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 164px;
+}
+.about ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 78px;
+}
+.about li{
+    margin: 0 60px;
+}
+.about h1{
+    font-family: 'LeagueGothic';
+    font-size: 30px;
+    color: #fefefe;
+    text-align: justify;
+    padding: 0 0 8px 0;
+    text-transform: uppercase;
+}
+
+.about h2{
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    height: 124px;
+    overflow: hidden;
+}
+.about h3{
+    font-family: 'LeagueGothic';
+    font-size: 18px;
+    color: #ffffff;
+    text-align: right;
+    padding: 20px 0 8px 0;
+    text-transform: uppercase;
+}
+.about a:hover{
+    text-shadow: 0 0 14px #ffffff;  
+}
+.about .image{
+    position: absolute;
+    transform: translate(-54px, 6px);
+}
+/* about end */
+/* article start */
+.article-up{
+    height:600px ;
+    background-color: #f9f9f9;
+    margin-top: 342px; 
+}
+.article-low{
+    height:510px ;
+    background-color: #ececec;
+    /* margin-top: 500px;  */
+}
+/* article end */
+/* footer start */
+.footter{
+    height:114px ;
+    background-image: url(../img/footter_bg.png);
+    margin-top: 500px;
+}
