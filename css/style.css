@@ -41,10 +41,6 @@
   height: 100%;
 }
 
-a {
-  text-decoration: none;
-}
-
 .menu {
   padding-top: 8px;
 }
@@ -578,6 +574,7 @@ a {
 }
 
 .menu3 li a {
+  text-decoration: none;
   text-transform: uppercase;
   color: white;
   font-size: 20px;
